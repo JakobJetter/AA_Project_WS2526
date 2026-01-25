@@ -58,7 +58,7 @@ Exploratory Data Analysis is performed to identify patterns, trends, and distrib
 
 ### 3. Cluster Analysis
 
-Clustering techniques are applied to group similar charging sessions and identify distinct charging behavior patterns. The results support behavioral segmentation and infrastructure optimization.
+Clustering techniques are applied to group similar users and identify distinct user behavior patterns. The results support improved capacity planning and targeted programs.
 
 **Notebook**
 - [`Cluster Analysis`](03_Cluster_Analysis/clustering.ipynb)

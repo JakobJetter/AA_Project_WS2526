@@ -73,7 +73,7 @@ Clustering techniques are applied to group similar users and identify distinct u
 Predictive models are developed to forecast future charging utilization.
 
 **Notebooks**
-- [`Feature Engineering`](4_predictiveAnalysis/arima.ipynb)
+- [`Feature Engineering`](4_predictive_Analysis/feature_engineering.ipynb)
 - [`Prediction Models`](04_Predicitve_Analysis/regression_models_and_neural_network.ipynb)
 
 ---
@@ -86,7 +86,7 @@ Predictive models are developed to forecast future charging utilization.
 - `03_Cluster_Analysis/`: Contains notebook and results for cluster analysis.
 - `04_Predicitve_Analysis/`: Contains notebooks and datasets for predictive analysis.
 - `environment.yml`: Contains the environment with all necesarry dependencies.
-- `requirements.txt`: Contains further information on dependency versions.
+- `requirements.txt`: Contains further information on versions.
 
 
 ---

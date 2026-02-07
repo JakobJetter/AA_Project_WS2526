@@ -32,7 +32,7 @@ The project is structured into consecutive analysis stages, which should be exec
  - sklearn
  - statsmodels
 
- **Note**: For Version Information see - [`Requirements`](requirements.txt)
+ **Note**: For Version Information see - [`Requirements`](requirements.txt) - You can run all Notebooks on the AA_env but make sure to additionally install ast and holidays
 
 ---
 

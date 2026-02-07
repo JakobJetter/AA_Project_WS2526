@@ -73,7 +73,7 @@ Clustering techniques are applied to group similar users and identify distinct u
 Predictive models are developed to forecast future charging utilization.
 
 **Notebooks**
-- [`Feature Engineering`](04_Predictive_Analysis/feature_engineering.ipynb)
+- [`Feature Engineering`](04_Predicitive_Analysis/feature_engineering.ipynb)
 - [`Prediction Models`](04_Predicitve_Analysis/regression_models_and_neural_network.ipynb)
 
 ---

@@ -11,28 +11,29 @@ The project is structured into consecutive analysis stages, which should be exec
 ## How to Run
 
 1. Clone the repository.
-2. Make sure to install all of the required dependencies.
-3. Open the Jupyter notebooks in the respective directories to explore the analysis and models
+2. Make sure to install the environment AA_env_group4 or all of the required dependencies.
+3. Open the Jupyter notebooks (in sequence) in the respective directories to explore the analysis and models
 
 ---
 
 ## Dependencies
 
- - ast
- - holidays
- - Jupyter Notebook
- - keras
- - matplotlib
- - numpy
- - pandas
- - Python 3.x
- - scikit-learn
- - scipy
- - seaborn
- - sklearn
- - statsmodels
+  - python=3.10
+  - notebook
+  - ipykernel
+  - jupyter_client
+  - jupyter_core
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - sympy
+  - pip
 
- **Note**: For Version Information see - [`Requirements`](requirements.txt) - You can run all Notebooks on the AA_env but make sure to additionally install ast and holidays
+ **Note**: You can run all Notebooks on the AA_env_group4 Environment, which can be installed from - [`AA_env_group4`](environment.yml). For further Version Information see - [`Requirements`](requirements.txt)
 
 ---
 
@@ -84,6 +85,8 @@ Predictive models are developed to forecast future charging utilization.
 - `02_Descriptive_Analytics/`: Contains notebooks for descriptive analytics (Key Performance Indicators and Site Characteristics).
 - `03_Cluster_Analysis/`: Contains notebook and results for cluster analysis.
 - `04_Predicitve_Analysis/`: Contains notebooks and datasets for predictive analysis.
+- `environment.yml`: Contains the environment with all necesarry dependencies.
+- `requirements.txt`: Contains further information on dependency versions.
 
 
 ---
@@ -92,4 +95,4 @@ Predictive models are developed to forecast future charging utilization.
 
 - The notebooks are designed to be executed sequentially.
 - Results may vary slightly depending on hardware and random seeds.
-- Computationally intensive steps (e.g., model training) may require sufficient system resources.
+- Computationally intensive steps (e.g., model training) may require sufficient system resources (and a lot of time).

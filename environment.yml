@@ -1,0 +1,29 @@
+name: AA_env_group4
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - notebook
+  - ipykernel
+  - jupyter_client
+  - jupyter_core
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - sympy
+  - pip
+
+  - pip:
+    - holidays
+    - sidetable
+    - torch
+    - keras
+    - nltk
+    - aquarel
+    - drawdata

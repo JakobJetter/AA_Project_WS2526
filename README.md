@@ -12,12 +12,13 @@ The project is structured into consecutive analysis stages, which should be exec
 
 1. Clone the repository.
 2. Make sure to install the environment AA_env_group4 or all of the required dependencies.
-3. Open the Jupyter notebooks (in sequence) in the respective directories to explore the analysis and models
+3. Open the Jupyter notebooks (in sequence) in the respective directories to explore the analysis and models.
 
 ---
 
 ## Dependencies
 
+ dependencies:
   - python=3.10
   - notebook
   - ipykernel
@@ -33,7 +34,16 @@ The project is structured into consecutive analysis stages, which should be exec
   - sympy
   - pip
 
- **Note**: You can run all Notebooks on the AA_env_group4 Environment, which can be installed from - [`AA_env_group4`](environment.yml). For further Version Information see - [`Requirements`](requirements.txt)
+  - pip:
+    - holidays
+    - sidetable
+    - torch
+    - keras
+    - nltk
+    - aquarel
+    - drawdata
+
+ **Note**: You can run all Notebooks on the AA_env_group4 Environment, which can be installed from - [`AA_env_group4`](environment.yml). Otherwise use the AA_env Environment but make sure that all additional depednecies are installed!
 
 ---
 
@@ -85,9 +95,7 @@ Predictive models are developed to forecast future charging utilization.
 - `02_Descriptive_Analytics/`: Contains notebooks for descriptive analytics (Key Performance Indicators and Site Characteristics).
 - `03_Cluster_Analysis/`: Contains notebook and results for cluster analysis.
 - `04_Predictive_Analysis/`: Contains notebooks and datasets for predictive analysis.
-- `environment.yml`: Contains the environment with all necesarry dependencies.
-- `requirements.txt`: Contains further information on versions.
-
+- `environment.yml`: Contains the environment AA_env_group4 with all necesarry dependencies.
 
 ---
 
